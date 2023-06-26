@@ -559,6 +559,7 @@ class ComposerStaticInit9412a6f32c218fa28c77d9e415febf50
         'App\\Http\\Requests\\Auth\\LoginRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Auth/LoginRequest.php',
         'App\\Http\\Requests\\ProfileUpdateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/ProfileUpdateRequest.php',
         'App\\Models\\Admin\\Project' => __DIR__ . '/../..' . '/app/Models/Admin/Project.php',
+        'App\\Models\\Admin\\Type' => __DIR__ . '/../..' . '/app/Models/Admin/Type.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
