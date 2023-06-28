@@ -22,7 +22,7 @@ Route::resource('/', UserController::class);
 
 
 Route::middleware('auth')->prefix('admin')->name('admin.')->group(function () {
-    Route::get('/', [AdminController::class, 'index'] )->name('dashboard');
+    Route::get('/', [ProjectController::class, 'index'] )->name('dashboard');
 
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

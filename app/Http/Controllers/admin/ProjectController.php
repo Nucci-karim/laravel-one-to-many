@@ -169,3 +169,12 @@ class ProjectController extends Controller
         return redirect()->route('admin.index.index');
     }
 }
+
+
+        $table->unsignedBigInteger('post_id');
+		$table->foreign('post_id')->references('id')->on('posts')->cascadeOnDelete();
+
+		$table->unsignedBigInteger('tag_id');
+		$table->foreign('tag_id')->references('id')->on('tags')->cascadeOnDelete();
+
+		$table->primary(['post_id','tag_id']);
